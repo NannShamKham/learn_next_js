@@ -1,0 +1,9 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 16,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "workbench.preferredLightColorTheme": "Default Dark Modern",
+    "workbench.statusBar.visible": false,
+    "simpleBrowser.focusLockIndicator.enabled": false
+}

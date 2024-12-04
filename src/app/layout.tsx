@@ -1,5 +1,9 @@
 export const metadata = {
-  title: 'Next.js',
+  title: {
+    default: 'default title',
+    template: '%s | Mahar App',
+    absolute: '',
+  },
   description: 'code example',
 }
 
