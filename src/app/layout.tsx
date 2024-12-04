@@ -1,3 +1,4 @@
+import Link from "next/link";
 export const metadata = {
   title: {
     default: 'default title',
@@ -18,6 +19,7 @@ export default function RootLayout({
         <header style={{ background: "lightblue", padding: "1rem" }}>
           <p>Header</p>
         </header>
+        
         {children}
         <footer style={{ background: "lightblue", padding: "1rem" }}>
           <p>Footer</p>
