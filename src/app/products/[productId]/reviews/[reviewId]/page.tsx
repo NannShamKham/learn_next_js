@@ -1,3 +1,4 @@
+"use client"
 import { notFound } from "next/navigation";
 
 const getRandomInt = (count:number) =>{
@@ -15,7 +16,7 @@ export default function ReviewDetail({
     const random = getRandomInt(2)
     if(random === 1){
         console.log("from condition")
-        throw new Error('Error loanding product')
+        throw new Error('Error loanding review')
     }
   return (
     <div>
