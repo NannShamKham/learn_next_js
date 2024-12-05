@@ -1,7 +1,12 @@
 "use client"
+import { useRouter } from "next/navigation";
 export default function orderProduct () {
+    const router = useRouter();
     const handleClick = () => {
         console.log("handleClick");
+        router.push('/')
+        // router.back();
+        // router.forward();
     }
     return (
         <div>
