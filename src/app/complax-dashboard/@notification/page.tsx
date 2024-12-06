@@ -4,8 +4,7 @@ const Notification = () => {
   return (
     <Card >
         <div className="">Notification <Link href={'/complax-dashboard/archived'}>Archived</Link></div>
-            
-         </Card>
+    </Card>
   )
 }
 

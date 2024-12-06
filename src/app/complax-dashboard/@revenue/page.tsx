@@ -1,5 +1,3 @@
-
-
 const revenuePage = () => {
   return (
     <div>Revenue page</div>
